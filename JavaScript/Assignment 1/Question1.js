@@ -1,13 +1,19 @@
 //Question 1 By Pratik Das
 
-var year = 2100;
+function findLeap(year) {
+  var info;
 
-if (year % 400 == 0) {
-  console.log("It is a Leap Year");
-} else if (year % 100 == 0) {
-  console.log("It is not a Leap Year");
-} else if (year % 4 == 0) {
-  printf("It is a Leap Year");
-} else {
-  console.log("It is not a Leap Year");
+  if (year % 400 == 0) {
+    info = ("It is a Leap Year");
+  } else if (year % 100 == 0) {
+    info = ("It is not a Leap Year");
+  } else if (year % 4 == 0) {
+    info = ("It is a Leap Year");
+  } else {
+    info = ("It is not a Leap Year");
+  }
+
+  return info;
 }
+
+console.log(findLeap(2100));
