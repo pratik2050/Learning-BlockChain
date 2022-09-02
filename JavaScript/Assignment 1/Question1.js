@@ -1,4 +1,4 @@
-//Assignment 1 By Pratik Das
+//Question 1 By Pratik Das
 
 var year = 2100;
 
